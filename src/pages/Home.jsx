@@ -61,7 +61,7 @@ const Home = () => {
             {/* PROGRESS SKILL */}
             <Cxt1 />
 
-            <div className="w-full bg-black h-[400px]">
+            <div className="w-full h-[400px]">
 
             </div>
 
