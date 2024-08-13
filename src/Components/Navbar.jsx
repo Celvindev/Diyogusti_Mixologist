@@ -3,13 +3,13 @@
 const Navbar = () => {
     return (
         <>
-            <div className="navbar px-5 ">
+            <div className="navbar px-5 md:px-16 ">
                 <div className="navbar-start">
                     <div className="dropdown rounded-sm p-2">
                         <div tabIndex={0} role="button" className="">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5"
+                                className="h-7 w-7"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="#071739">

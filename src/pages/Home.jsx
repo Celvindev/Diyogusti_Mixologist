@@ -3,6 +3,7 @@ import content from '../Components/Content.json';
 import { motion } from "framer-motion";
 import { useSpring, animated } from '@react-spring/web';
 import Cxt1 from "../Components/Hcontent/Cxt1";
+import Cxt2 from "../Components/Hcontent/Cxt2";
 
 
 const Home = () => {
@@ -60,6 +61,8 @@ const Home = () => {
 
             {/* PROGRESS SKILL */}
             <Cxt1 />
+            {/* WORK EX */}
+            <Cxt2 />
 
             <div className="w-full h-[400px]">
 
