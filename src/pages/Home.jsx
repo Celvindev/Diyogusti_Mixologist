@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                 </animated.div>
                 <div className="hidden md:block">
-                    <img src="/assets/Diyoo.webp" className="w-[800px]" />
+                    <img src="/assets/Diyooo.webp" className="w-[900px]" />
                 </div>
             </div>
 
