@@ -211,14 +211,14 @@ const Cxt2 = () => {
                                     <div className="p-2">
                                         <h2 className="font-poppins font-semibold text-xl text-[#071739]">Kez’s Bakery & Restaurant, Batam, Indonesia</h2>
                                         <p className="font-poppins font-normal text-xs text-[#ff0000]">August 2016 – December 2016</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
+                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]"></h5>
                                         <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Set up the restaurant, inform customers of specials, recommend menu items, manage orders, and handle payments. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-9 font-poppins  bg-[#071739]"
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
                                                 onClick={() => document.getElementById('kenzy').showModal()}
                                             >
                                                 More Info
@@ -521,7 +521,7 @@ const Cxt2 = () => {
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg text-[#071739]">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Harmoni One Hotel, Batam, Indonesia</h3>
                     <div className="content">
                         <img src="./assets/harreal.avif" className="rounded-box mt-2 object-cover h-full w-full" />
                         <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
