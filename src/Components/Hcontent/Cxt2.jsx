@@ -376,7 +376,7 @@ const Cxt2 = () => {
                     <div className="content">
                         <img src="./assets/alco.jpg" className="rounded-box mt-2 object-cover h-full w-full" />
                         <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
-                            <h5 className="font-bold text-[#071739]">As Bar Captainr</h5>
+                            <h5 className="font-bold text-[#071739]">As Bar Captain</h5>
                             <small className="text-xs font-light text-[#ff0000]">January 2023 – October 2023</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 40 Staff</p>
