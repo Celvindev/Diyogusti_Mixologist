@@ -21,7 +21,7 @@ const Cxt2 = () => {
                         </motion.div>
                     </div>
 
-                    <div className="carousel mt-10 carousel-center bg-[#071739] rounded-md w-full space-x-4 p-4">
+                    <div className="carousel mt-10 carousel-center rounded-md w-full space-x-4 p-4">
                         <div className="carousel-item">
                             <div className="card card-compact bg-white w-[280px]">
                                 <figure className="overflow-hidden h-[200px]">
