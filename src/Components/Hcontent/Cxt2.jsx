@@ -23,7 +23,7 @@ const Cxt2 = () => {
 
                     <div className="carousel mt-10 carousel-center bg-[#071739] rounded-md w-full space-x-4 p-4">
                         <div className="carousel-item">
-                            <div className="card card-compact bg-base-100 w-[280px]">
+                            <div className="card card-compact bg-white w-[280px]">
                                 <figure className="overflow-hidden h-[200px]">
                                     <img
                                         src="./assets/aura.webp"
@@ -51,7 +51,7 @@ const Cxt2 = () => {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <div className="card card-compact bg-base-100 w-[280px]">
+                            <div className="card card-compact bg-white w-[280px]">
                                 <figure className="overflow-hidden h-[200px]">
                                     <img
                                         src="./assets/jiang.jpg"
@@ -80,7 +80,7 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
                                             src="./assets/poolbar.jpg"
@@ -111,7 +111,7 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
                                             src="./assets/alco.jpg"
@@ -140,7 +140,7 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
                                             src="./assets/radi.avif"
@@ -170,7 +170,7 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
                                             src="./assets/anambas.avif"
@@ -200,7 +200,7 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
                                             src="./assets/kenzy.avif"
@@ -230,10 +230,10 @@ const Cxt2 = () => {
                         </div>
                         <div className="carousel-item">
                             <div className="carousel-item">
-                                <div className="card card-compact bg-base-100 w-[280px]">
+                                <div className="card card-compact bg-white w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
-                                            src="./assets/harmoni.avif"
+                                            src="./assets/harreal.avif"
                                             alt="jiang he chinese restaurant"
                                             className="object-cover h-full w-full"
                                         />
@@ -269,22 +269,22 @@ const Cxt2 = () => {
 
             {/* MODAL */}
             <dialog id="hiton" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Hilton Maldives Amingiri Resort & SPA</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Hilton Maldives Amingiri Resort & SPA</h3>
                     <div className="content">
                         <img src="./assets/aura.webp" className="rounded-box mt-2" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">AS MIXOLOGIST </h5>
+                        <div className="mt-2 font-poppins font-normal text-black text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">AS MIXOLOGIST </h5>
                             <small className="text-xs font-light text-[#ff0000]">December 2023 – March 2024</small>
-                            <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <p className="mt-3 ">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 12 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 84 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-xs text-black font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Preparation of Bar.</li>
                                 <li>Create drink recipes and manage beverage costs, including maintaining cost efficiency.</li>
@@ -300,22 +300,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="mariot" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Marriott Batam Harbour Bay</h3>
+                    <h3 className="font-bold text-lg text-[#071739] ">Marriott Batam Harbour Bay</h3>
                     <div className="content">
                         <img src="./assets/jiang.jpg" className="rounded-box mt-2" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Senior Bartender</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Senior Bartender</h5>
                             <small className="text-xs font-light text-[#ff0000]">October 2022 – October 2023</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 5 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 84 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-xs font-normal text-black">
                             <ul className="list-disc list-inside">
                                 <li>Pre-opening new outlet.</li>
                                 <li>Create drink recipes and Make cost of beverage included
@@ -334,22 +334,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="pool" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">The Pool Bar</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">The Pool Bar</h3>
                     <div className="content">
                         <img src="./assets/poolbar.jpg" className="rounded-box mt-2" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Senior Bartender</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Senior Bartender</h5>
                             <small className="text-xs font-light text-[#ff0000]">January 2023 – October 2023</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 2 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 10 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Pre-opening new outlet.</li>
                                 <li>Create drink recipes and Make cost of beverage included
@@ -368,22 +368,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="alco" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">The Pool Bar</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Alco Lounge & Grill</h3>
                     <div className="content">
                         <img src="./assets/alco.jpg" className="rounded-box mt-2 object-cover h-full w-full" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Bar Captainr</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Bar Captainr</h5>
                             <small className="text-xs font-light text-[#ff0000]">January 2023 – October 2023</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 40 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 200 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Plan, organize, and control the operations of a cocktail lounge or
                                     bar.</li>
@@ -403,22 +403,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="radison" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Radisson & Convention Center Batam</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Radisson & Convention Center Batam</h3>
                     <div className="content">
                         <img src="./assets/radi.avif" className="rounded-box mt-2 object-cover h-full w-full" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Senior Bartender</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Senior Bartender</h5>
                             <small className="text-xs font-light text-[#ff0000]">November 2019 – Juni 2021</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 30 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 210 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Responsible to prepare all the bar equipment & materials during
                                     mise en place, and ensure all the things in the clean condition and
@@ -438,22 +438,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="anambas" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Bawah Reserve, Anambas, Indonesia</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Bawah Reserve, Anambas, Indonesia</h3>
                     <div className="content">
                         <img src="./assets/anambas.avif" className="rounded-box mt-2 object-cover h-full w-full" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Bar Server & Wine Steward</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Bar Server & Wine Steward</h5>
                             <small className="text-xs font-light text-[#ff0000]">March 2018 – April 2019</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 20 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 50 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Responsible to prepare all the bar equipment & materials during
                                     mise en place, and ensure all the things in the clean condition and
@@ -484,22 +484,22 @@ const Cxt2 = () => {
             </dialog>
 
             <dialog id="kenzy" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
                     <div className="content">
                         <img src="./assets/kenzy.avif" className="rounded-box mt-2 object-cover h-full w-full" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Bar Server</h5>
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Bar Server</h5>
                             <small className="text-xs font-light text-[#ff0000]">August 2016 – December 2016</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 100 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Prepare restaurant before opening. </li>
                                 <li>Inform customers about the day’s specials.</li>
@@ -517,22 +517,22 @@ const Cxt2 = () => {
 
 
             <dialog id="harmoni" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
+                    <h3 className="font-bold text-lg text-[#071739]">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
                     <div className="content">
-                        <img src="./assets/harmoni.avif" className="rounded-box mt-2 object-cover h-full w-full" />
-                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
-                            <h5 className="font-bold">As Banquet Server</h5>
+                        <img src="./assets/harreal.avif" className="rounded-box mt-2 object-cover h-full w-full" />
+                        <div className="mt-2 font-poppins text-black font-normal text-sm leading-5 ">
+                            <h5 className="font-bold text-[#071739]">As Banquet Server</h5>
                             <small className="text-xs font-light text-[#ff0000]">January 2014 – January 2016</small>
                             <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 20 Staff</p>
                             <p>Number of Seats in Outlet &nbsp;&nbsp; : 100 Seats</p>
                             <h5 className="font-bold mt-3">Job Description</h5>
                         </div>
-                        <div className="font-poppins text-xs font-normal">
+                        <div className="font-poppins text-black text-xs font-normal">
                             <ul className="list-disc list-inside">
                                 <li>Monitored before start event, while start event, and After event. </li>
                                 <li>Assisted with setup of the banquet hall and tables.</li>
