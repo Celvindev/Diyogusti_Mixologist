@@ -35,13 +35,13 @@ const Cxt2 = () => {
                                     <h2 className="font-poppins font-semibold text-xl text-[#071739]">Hilton Maldives Amingiri Resort & SPA</h2>
                                     <p className="font-poppins font-normal text-xs text-[#ff0000]">December 2023 – March 2024</p>
                                     <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Aura Pool Bar</h5>
-                                    <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Manage bar operations, craft drink recipes, control costs, and oversee daily inventory and sales summaries. Click for more info.</p>
+                                    <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Manage bar operations, craft drink recipes, control costs, and oversee daily inventory and sales summaries. Click for more info.</p>
                                     <div className="card-actions justify-end">
                                         <motion.button
                                             initial={{ opacity: 0, y: 20 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{ duration: 0.8, delay: 0.8 }}
-                                            className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
+                                            className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
                                             onClick={() => document.getElementById('hiton').showModal()}
                                         >
                                             More Info
@@ -63,13 +63,13 @@ const Cxt2 = () => {
                                     <h2 className="font-poppins font-semibold text-xl text-[#071739]">Marriott Batam Harbour Bay</h2>
                                     <p className="font-poppins font-normal text-xs text-[#ff0000]">October 2022 – October 2023</p>
                                     <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
-                                    <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
+                                    <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
                                     <div className="card-actions justify-end">
                                         <motion.button
                                             initial={{ opacity: 0, y: 20 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{ duration: 0.8, delay: 0.8 }}
-                                            className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
+                                            className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
                                             onClick={() => document.getElementById('mariot').showModal()}
                                         >
                                             More Info
@@ -91,15 +91,15 @@ const Cxt2 = () => {
                                     <div className="p-2">
                                         <h2 className="font-poppins font-semibold text-xl text-[#071739]">The Pool Bar</h2>
                                         <p className="font-poppins font-normal text-xs text-[#ff0000]">January 2023 – October 2023</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Pool Bar</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">
+                                        <h5 className="font-semibold font-poppins mt-7 text-sm text-[#A68769]">Pool Bar</h5>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">
                                             Oversee new outlet pre-opening, develop drink recipes, manage costs, and handle daily operations, inventory, and purchase orders. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-7 font-poppins  bg-[#071739]"
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
                                                 onClick={() => document.getElementById('pool').showModal()}
                                             >
                                                 More Info
@@ -121,14 +121,14 @@ const Cxt2 = () => {
                                     <div className="p-2">
                                         <h2 className="font-poppins font-semibold text-xl text-[#071739]">Alco Lounge & Grill</h2>
                                         <p className="font-poppins font-normal text-xs text-[#ff0000]">March 2022 – October 2022</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Cocktail Bar</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Manage cocktail lounge or bar operations, develop drink recipes, oversee inventory and staff, and handle cost and sales summaries. Click for more info</p>
+                                        <h5 className="font-semibold font-poppins mt-7 text-sm text-[#A68769]">Cocktail Bar</h5>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Manage cocktail lounge or bar operations, develop drink recipes, oversee inventory and staff, and handle cost and sales summaries. Click for more info</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-7 font-poppins  bg-[#071739]"
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
                                                 onClick={() => document.getElementById('alco').showModal()}
                                             >
                                                 More Info
@@ -143,23 +143,23 @@ const Cxt2 = () => {
                                 <div className="card card-compact bg-base-100 w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
-                                            src="./assets/jiang.jpg"
+                                            src="./assets/radi.avif"
                                             alt="jiang he chinese restaurant"
                                             className="object-cover h-full w-full"
                                         />
                                     </figure>
                                     <div className="p-2">
-                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Marriott Batam Harbour Bay</h2>
-                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">October 2022 – October 2023</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
+                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Radisson & Convention Center Batam</h2>
+                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">November 2019 – Juni 2021</p>
+                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Pool Bar</h5>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Prepare bar equipment, maintain cleanliness, manage inventory, and implement FIFO and HACCP standards. Assist with menu development and report to the Outlet Manager. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
-                                                onClick={() => document.getElementById('mariot').showModal()}
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-6 font-poppins  bg-[#071739]"
+                                                onClick={() => document.getElementById('radison').showModal()}
                                             >
                                                 More Info
                                             </motion.button>
@@ -173,23 +173,23 @@ const Cxt2 = () => {
                                 <div className="card card-compact bg-base-100 w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
-                                            src="./assets/jiang.jpg"
+                                            src="./assets/anambas.avif"
                                             alt="jiang he chinese restaurant"
                                             className="object-cover h-full w-full"
                                         />
                                     </figure>
                                     <div className="p-2">
-                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Marriott Batam Harbour Bay</h2>
-                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">October 2022 – October 2023</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
+                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Bawah Reserve, Anambas, Indonesia</h2>
+                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">March 2018 – April 2019</p>
+                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Private Island, Resort</h5>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Prepare bar equipment, ensure cleanliness, manage inventory, implement FIFO and HACCP standards, and assist with customer service and order management. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
-                                                onClick={() => document.getElementById('mariot').showModal()}
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-6 font-poppins  bg-[#071739]"
+                                                onClick={() => document.getElementById('anambas').showModal()}
                                             >
                                                 More Info
                                             </motion.button>
@@ -203,23 +203,23 @@ const Cxt2 = () => {
                                 <div className="card card-compact bg-base-100 w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
-                                            src="./assets/jiang.jpg"
+                                            src="./assets/kenzy.avif"
                                             alt="jiang he chinese restaurant"
                                             className="object-cover h-full w-full"
                                         />
                                     </figure>
                                     <div className="p-2">
-                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Marriott Batam Harbour Bay</h2>
-                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">October 2022 – October 2023</p>
+                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Kez’s Bakery & Restaurant, Batam, Indonesia</h2>
+                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">August 2016 – December 2016</p>
                                         <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Set up the restaurant, inform customers of specials, recommend menu items, manage orders, and handle payments. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
-                                                onClick={() => document.getElementById('mariot').showModal()}
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-9 font-poppins  bg-[#071739]"
+                                                onClick={() => document.getElementById('kenzy').showModal()}
                                             >
                                                 More Info
                                             </motion.button>
@@ -233,23 +233,23 @@ const Cxt2 = () => {
                                 <div className="card card-compact bg-base-100 w-[280px]">
                                     <figure className="overflow-hidden h-[200px]">
                                         <img
-                                            src="./assets/jiang.jpg"
+                                            src="./assets/harmoni.avif"
                                             alt="jiang he chinese restaurant"
                                             className="object-cover h-full w-full"
                                         />
                                     </figure>
                                     <div className="p-2">
-                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Marriott Batam Harbour Bay</h2>
-                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">October 2022 – October 2023</p>
-                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Jiang He Chinese Restaurant</h5>
-                                        <p className="mt-2 text-sm font-poppins font-light text-[#4A6382]">Lead pre-opening, craft drink recipes, manage costs, and oversee daily operations and inventory. Click for more info.</p>
+                                        <h2 className="font-poppins font-semibold text-xl text-[#071739]">Harmoni One Hotel, Batam, Indonesia</h2>
+                                        <p className="font-poppins font-normal text-xs text-[#ff0000]">January 2014 – January 2016</p>
+                                        <h5 className="font-semibold font-poppins mt-5 text-sm text-[#A68769]">Harmoni One Hotel</h5>
+                                        <p className="mt-2 text-sm font-poppins font-light text-justify text-[#4A6382]">Monitor event setup, execution, and cleanup; arrange items, follow checklists, and report to management. Click for more info.</p>
                                         <div className="card-actions justify-end">
                                             <motion.button
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ duration: 0.8, delay: 0.8 }}
-                                                className="py-2 px-5 w-full   text-white rounded-lg mt-5 font-poppins  bg-[#071739]"
-                                                onClick={() => document.getElementById('mariot').showModal()}
+                                                className="py-2 px-5 w-full   text-white rounded-lg mt-16 font-poppins  bg-[#071739]"
+                                                onClick={() => document.getElementById('harmoni').showModal()}
                                             >
                                                 More Info
                                             </motion.button>
@@ -395,6 +395,152 @@ const Cxt2 = () => {
                                     daily inventory in the end of operational time.</li>
                                 <li>Review the Summary Consumption of Sales to date related to the Daily Bar Product Inventory, and directly
                                     report to the Outlet Manager.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </dialog>
+
+            <dialog id="radison" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-lg">Radisson & Convention Center Batam</h3>
+                    <div className="content">
+                        <img src="./assets/radi.avif" className="rounded-box mt-2 object-cover h-full w-full" />
+                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
+                            <h5 className="font-bold">As Senior Bartender</h5>
+                            <small className="text-xs font-light text-[#ff0000]">November 2019 – Juni 2021</small>
+                            <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 30 Staff</p>
+                            <p>Number of Seats in Outlet &nbsp;&nbsp; : 210 Seats</p>
+                            <h5 className="font-bold mt-3">Job Description</h5>
+                        </div>
+                        <div className="font-poppins text-xs font-normal">
+                            <ul className="list-disc list-inside">
+                                <li>Responsible to prepare all the bar equipment & materials during
+                                    mise en place, and ensure all the things in the clean condition and
+                                    working properly. </li>
+                                <li>Responsible to make summary Beverage Consumption of sales and daily inventory in the end of operational time.</li>
+                                <li>Implement the FIFO method very well.</li>
+                                <li>Incharge to the bar products stock and par-stock maintenance.</li>
+                                <li>HACCP implementation on mise en place, during operational, and after operational.</li>
+                                <li>Review the Summary Consumption of Sales to date related to the Daily Bar Product Inventory, and directly report
+                                    to the Outlet Manager.</li>
+                                <li>Assisting the Outlet Manager in terms of beverage menu development.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </dialog>
+
+            <dialog id="anambas" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-lg">Bawah Reserve, Anambas, Indonesia</h3>
+                    <div className="content">
+                        <img src="./assets/anambas.avif" className="rounded-box mt-2 object-cover h-full w-full" />
+                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
+                            <h5 className="font-bold">As Bar Server & Wine Steward</h5>
+                            <small className="text-xs font-light text-[#ff0000]">March 2018 – April 2019</small>
+                            <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 20 Staff</p>
+                            <p>Number of Seats in Outlet &nbsp;&nbsp; : 50 Seats</p>
+                            <h5 className="font-bold mt-3">Job Description</h5>
+                        </div>
+                        <div className="font-poppins text-xs font-normal">
+                            <ul className="list-disc list-inside">
+                                <li>Responsible to prepare all the bar equipment & materials during
+                                    mise en place, and ensure all the things in the clean condition and
+                                    working properly. </li>
+                                <li>Responsible to make summary Beverage Consumption of sales and daily inventory in the end of operational time.</li>
+                                <li>Implement the FIFO method very well.</li>
+                                <li>Incharge to the bar products stock and par-stock maintenance.</li>
+                                <li>HACCP implementation on mise en place, during operational, and after operational.</li>
+                                <li>Inform customers about the day’s specials.</li>
+                                <li>Offer menu recommendations upon request.</li>
+                                <li>Up-sell additional products when appropriate.</li>
+                                <li>Communicate order details to the Kitchen Staff.</li>
+                                <li>Serve food and drink orders.</li>
+                                <li>Deliver checks and collect bill payments.</li>
+                                <li>Refilling all the fridges based on the pars.</li>
+                                <li>Answering questions and always having suggestions, our Wine Steward will guide guests through the bars &
+                                    restaurants offerings different options anytime our guests will like to have some wines.</li>
+                                <li>The duty of the Wine Steward to explain the wine list, assist guests with special wines occasions and
+                                    recommend items that the bars & restaurants would like to sell more.</li>
+                                <li>Maintaining the inventory, informing missing items, supervise all the wines fridges including main store and
+                                    chillers area and ensure the other team members are keeping the working areas up to standards, will be the
+                                    main duties of the Wine Steward.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </dialog>
+
+            <dialog id="kenzy" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-lg">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
+                    <div className="content">
+                        <img src="./assets/kenzy.avif" className="rounded-box mt-2 object-cover h-full w-full" />
+                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
+                            <h5 className="font-bold">As Bar Server</h5>
+                            <small className="text-xs font-light text-[#ff0000]">August 2016 – December 2016</small>
+                            <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10 Staff</p>
+                            <p>Number of Seats in Outlet &nbsp;&nbsp; : 100 Seats</p>
+                            <h5 className="font-bold mt-3">Job Description</h5>
+                        </div>
+                        <div className="font-poppins text-xs font-normal">
+                            <ul className="list-disc list-inside">
+                                <li>Prepare restaurant before opening. </li>
+                                <li>Inform customers about the day’s specials.</li>
+                                <li>Offer menu recommendations upon request.</li>
+                                <li>Up-sell additional products when appropriate.</li>
+                                <li>Communicate order details to the Kitchen Staff.</li>
+                                <li>Serve food and drink orders.</li>
+                                <li>Deliver checks and collect bill payments.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </dialog>
+
+
+            <dialog id="harmoni" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-lg">Kez’s Bakery & Restaurant, Batam, Indonesia</h3>
+                    <div className="content">
+                        <img src="./assets/harmoni.avif" className="rounded-box mt-2 object-cover h-full w-full" />
+                        <div className="mt-2 font-poppins font-normal text-sm leading-5 ">
+                            <h5 className="font-bold">As Banquet Server</h5>
+                            <small className="text-xs font-light text-[#ff0000]">January 2014 – January 2016</small>
+                            <p className="mt-3">Restaurant Staff &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 20 Staff</p>
+                            <p>Number of Seats in Outlet &nbsp;&nbsp; : 100 Seats</p>
+                            <h5 className="font-bold mt-3">Job Description</h5>
+                        </div>
+                        <div className="font-poppins text-xs font-normal">
+                            <ul className="list-disc list-inside">
+                                <li>Monitored before start event, while start event, and After event. </li>
+                                <li>Assisted with setup of the banquet hall and tables.</li>
+                                <li>Set dining tables according to type of event and service standards.</li>
+                                <li>Followed checklists for shift start and end to help with smooth transitions.</li>
+                                <li>Arrange & Counting all item need it and put in system BEO and announce to all team following requirement.</li>
+                                <li>Report to Management Status of event.</li>
+                                <li>Make Summary report after end of event.</li>
                             </ul>
                         </div>
 

@@ -32,7 +32,7 @@ const Home = () => {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="text-4xl md:text-5xl px-0  text-[#071739] mt-3 font-poppins font-bold"
                     >
-                        I'M <span className="text-[#A68769]">DIYOGUSTI MIXOLOGIST</span>
+                        I&rsquo;M <span className="text-[#A68769]">DIYOGUSTI MIXOLOGIST</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -63,6 +63,37 @@ const Home = () => {
             <Cxt1 />
             {/* WORK EX */}
             <Cxt2 />
+
+            <div
+                className="relative w-full h-[200px] md:h-[400px] bg-cover bg-center"
+                style={{
+                    backgroundImage: "url('/assets/bg1.jpg')",
+                    backgroundAttachment: "fixed"
+                }}
+            >
+                <div className="absolute inset-0 bg-[#071739] opacity-50"></div>
+                <div className="relative flex flex-col items-center justify-center h-full text-white">
+                    <h2 className="text-2xl md:text-5xl font-poppins font-bold mt-8 tracking-wide md:tracking-widest opacity-70">
+                        MENU PRESENTATIONS
+                    </h2>
+                    <div className="animate-bounce">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            className="w-10 h-10 md:w-16 md:h-16 mt-5 opacity-70"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19 9l-7 7-7-7"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
 
             <div className="w-full h-[400px]">
 

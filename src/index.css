@@ -5,4 +5,5 @@
 [data-theme] {
   background-color: white;
   color: var(--fallback-bc, oklch(var(--bc) / 1));
+  scroll-behavior: smooth;
 }
